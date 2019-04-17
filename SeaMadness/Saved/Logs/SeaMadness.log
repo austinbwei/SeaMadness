@@ -1,4 +1,4 @@
-﻿Log file open, 04/17/19 10:44:20
+﻿Log file open, 04/17/19 10:59:43
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: SeaMadness
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 3.052585
+LogStats: Stats thread started at 0.552646
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -101,7 +101,7 @@ LogPluginManager: Mounting plugin DatasmithImporter
 LogPluginManager: Mounting plugin MDLImporter
 LogPluginManager: Mounting plugin StaticMeshEditorExtension
 LogPluginManager: Mounting plugin VariantManager
-LogStreaming: Display: Took  0.353s to configure plugins.
+LogStreaming: Display: Took  0.099s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -156,1085 +156,505 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.011s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.04.17-14.44.23:373][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.04.17-14.44.23:373][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.04.17-14.44.23:373][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Engine.ini]
-[2019.04.17-14.44.23:373][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.04.17-14.44.23:373][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Engine.ini]
-[2019.04.17-14.44.23:373][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Engine.ini]
-[2019.04.17-14.44.23:373][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.04.17-14.44.23:373][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.04.17-14.44.23:373][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.04.17-14.44.23:373][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.04.17-14.44.23:373][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.04.17-14.44.23:373][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.04.17-14.44.23:373][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.04.17-14.44.23:373][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.04.17-14.44.23:373][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.04.17-14.44.23:373][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.04.17-14.44.23:373][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.04.17-14.44.23:373][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.04.17-14.44.23:373][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.04.17-14.44.23:374][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Engine.ini]
-[2019.04.17-14.44.23:374][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.04.17-14.44.23:374][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.04.17-14.44.23:374][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.04.17-14.44.23:374][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.04.17-14.44.23:374][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.04.17-14.44.23:374][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.04.17-14.44.23:374][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.04.17-14.44.23:374][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.04.17-14.44.23:374][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.04.17-14.44.23:374][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.04.17-14.44.23:374][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.04.17-14.44.23:374][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.04.17-14.44.23:374][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.04.17-14.44.23:374][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.04.17-14.44.23:374][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Engine.ini]
-[2019.04.17-14.44.23:374][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Engine.ini]
-[2019.04.17-14.44.23:428][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
-[2019.04.17-14.44.23:428][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.04.17-14.44.23:428][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.04.17-14.44.23:428][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
-[2019.04.17-14.44.23:428][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.04.17-14.44.23:428][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
-[2019.04.17-14.44.23:428][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.04.17-14.44.23:428][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.04.17-14.44.23:428][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.04.17-14.44.23:428][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.04.17-14.44.23:428][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.04.17-14.44.23:428][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.04.17-14.44.23:428][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.04.17-14.44.23:429][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.04.17-14.44.23:430][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.04.17-14.44.23:440][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.17-14.44.23:448][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.04.17-14.44.23:509][  0]LogHAL: Display: Platform has ~ 16 GB [17127874560 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.04.17-14.44.23:513][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.04.17-14.44.23:513][  0]LogInit: Going up to parent DeviceProfile []
-[2019.04.17-14.44.23:513][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
-[2019.04.17-14.44.23:513][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.04.17-14.44.23:513][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.04.17-14.44.23:513][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.04.17-14.44.23:514][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.04.17-14.44.23:515][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.04.17-14.44.23:516][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.04.17-14.44.23:516][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.04.17-14.44.23:516][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.04.17-14.44.23:516][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.04.17-14.44.23:516][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.04.17-14.44.23:516][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.04.17-14.44.23:516][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.04.17-14.44.23:516][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.04.17-14.44.23:516][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
-[2019.04.17-14.44.23:516][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.04.17-14.44.23:516][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.04.17-14.44.23:516][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.04.17-14.44.23:550][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.04.17-14.44.23:550][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Engine.ini]
-[2019.04.17-14.44.23:575][  0]LogInit: Computer: DESKTOP-EF7ETIK
-[2019.04.17-14.44.23:575][  0]LogInit: User: AustinWeiler
-[2019.04.17-14.44.23:575][  0]LogInit: CPU Page size=4096, Cores=8
-[2019.04.17-14.44.23:576][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.04.17-14.44.23:576][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2019.04.17-14.44.23:576][  0]LogMemory: Platform Memory Stats for Windows
-[2019.04.17-14.44.23:576][  0]LogMemory: Process Physical Memory: 104.23 MB used, 104.23 MB peak
-[2019.04.17-14.44.23:577][  0]LogMemory: Process Virtual Memory: 91.57 MB used, 91.57 MB peak
-[2019.04.17-14.44.23:577][  0]LogMemory: Physical Memory: 5342.17 MB used,  10992.25 MB free, 16334.41 MB total
-[2019.04.17-14.44.23:577][  0]LogMemory: Virtual Memory: 4683.14 MB used,  134213048.00 MB free, 134217728.00 MB total
-[2019.04.17-14.44.24:198][  0]LogInit: Using OS detected language (en-US).
-[2019.04.17-14.44.24:198][  0]LogInit: Using OS detected locale (en-US).
-[2019.04.17-14.44.24:250][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.04.17-14.44.25:305][  0]LogStreaming: Display: Took  1.094s to InitEngineTextLocalization.
-[2019.04.17-14.44.25:311][  0]LogInit: Setting process to per monitor DPI aware
-[2019.04.17-14.44.25:805][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.04.17-14.44.25:805][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.04.17-14.44.29:813][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.17-14.44.29:813][  0]LogD3D11RHI: D3D11 adapters:
-[2019.04.17-14.44.29:935][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2019.04.17-14.44.29:935][  0]LogD3D11RHI:       8079/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.04.17-14.44.29:938][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.04.17-14.44.29:938][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.04.17-14.44.29:938][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.04.17-14.44.29:947][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.04.17-14.44.29:947][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2019.04.17-14.44.29:948][  0]LogWindows: EnumDisplayDevices:
-[2019.04.17-14.44.29:948][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2019.04.17-14.44.29:948][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.04.17-14.44.29:949][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.04.17-14.44.29:949][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.04.17-14.44.29:949][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.04.17-14.44.29:950][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2019.04.17-14.44.29:950][  0]LogD3D11RHI:   Driver Version: 425.31 (internal:25.21.14.2531, unified:425.31)
-[2019.04.17-14.44.29:950][  0]LogD3D11RHI:      Driver Date: 4-9-2019
-[2019.04.17-14.44.29:950][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2019.04.17-14.44.30:019][  0]LogD3D11RHI: Async texture creation enabled
-[2019.04.17-14.44.30:214][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.04.17-14.44.31:315][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.04.17-14.44.31:372][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.04.17-14.44.31:418][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.04.17-14.44.31:467][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.04.17-14.44.31:559][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.04.17-14.44.31:630][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.04.17-14.44.31:683][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.04.17-14.44.31:739][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.04.17-14.44.31:792][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-14.44.31:994][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.04.17-14.44.32:236][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.17-14.44.32:236][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.17-14.44.32:318][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.17-14.44.32:318][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.17-14.44.32:359][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.04.17-14.44.32:404][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.04.17-14.44.32:455][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.04.17-14.44.32:537][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.04.17-14.44.32:652][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.04.17-14.44.32:652][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.04.17-14.44.32:652][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.04.17-14.44.33:669][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Intermediate/Shaders/WorkingDirectory/5308/).
-[2019.04.17-14.44.33:669][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Austin Weiler/AppData/Local/Temp/UnrealShaderWorkingDir/D55F6BFC4B1C6944C7A8C2AE64D42BE0/'.
-[2019.04.17-14.44.33:682][  0]LogXGEController: Cleaning working directory: C:/Users/Austin Weiler/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.04.17-14.44.33:682][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.04.17-14.44.33:682][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.04.17-14.44.33:682][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.04.17-14.44.37:692][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.04.17-14.44.37:832][  0]LogDerivedDataCache: Loaded boot cache 0.14s 71MB C:/Users/Austin Weiler/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.04.17-14.44.37:832][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Austin Weiler/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.04.17-14.44.37:832][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.04.17-14.44.37:832][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.04.17-14.44.37:832][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.17-14.44.37:832][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.04.17-14.44.37:924][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.04.17-14.44.37:992][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
-[2019.04.17-14.44.38:007][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Austin Weiler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.04.17-14.44.38:007][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.04.17-14.44.38:007][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.04.17-14.44.38:081][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.04.17-14.44.38:124][  0]LogSlate: Using FreeType 2.6.0
-[2019.04.17-14.44.38:234][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.04.17-14.44.39:351][  0]LogAssetRegistry: FAssetRegistry took 0.0557 seconds to start up
-[2019.04.17-14.44.42:011][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.17-14.44.43:860][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.04.17-14.44.44:083][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.04.17-14.44.44:083][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.04.17-14.44.44:100][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.04.17-14.44.44:100][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.04.17-14.44.44:419][  0]LogNetVersion: SeaMadness 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1136724634)
-[2019.04.17-14.44.48:785][  0]LogPackageLocalizationCache: Processed 14 localized package path(s) for 2 prioritized culture(s) in 0.235285 seconds
-[2019.04.17-14.44.48:797][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.04.17-14.44.48:797][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
-[2019.04.17-14.44.48:797][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.04.17-14.45.10:476][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.04.17-14.45.10:534][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.04.17-14.45.12:910][  0]SourceControl: Source control is disabled
-[2019.04.17-14.45.12:922][  0]SourceControl: Source control is disabled
-[2019.04.17-14.45.12:997][  0]SourceControl: Source control is disabled
-[2019.04.17-14.45.13:043][  0]SourceControl: Source control is disabled
-[2019.04.17-14.45.14:859][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.04.17-14.45.15:271][  0]LogOcInput: OculusInput pre-init called
-[2019.04.17-14.45.19:787][  0]LogEngine: Initializing Engine...
-[2019.04.17-14.45.19:806][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.17-14.45.19:816][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.006 s
-[2019.04.17-14.45.19:816][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.17-14.45.19:817][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.17-14.45.19:817][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.17-14.45.20:953][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.04.17-14.45.21:267][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.04.17-14.45.21:396][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.17-14.45.21:445][  0]LogInit: FAudioDevice initialized.
-[2019.04.17-14.45.21:446][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.04.17-14.45.21:537][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Austin Weiler/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.04.17-14.45.21:557][  0]LogInit: Texture streaming: Enabled
-[2019.04.17-14.45.21:770][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.04.17-14.45.22:343][  0]LogInit: Transaction tracking system initialized
-[2019.04.17-14.45.23:878][  0]BlueprintLog: New page: Editor Load
-[2019.04.17-14.45.25:592][  0]LocalizationService: Localization service is disabled
-[2019.04.17-14.45.30:394][  0]LogFileCache: Scanning file cache for directory 'D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/' took 0.03s
-[2019.04.17-14.45.30:394][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.04.17-14.45.30:395][  0]LogCook: Display: Mobile HDR setting 1
-[2019.04.17-14.45.30:395][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.04.17-14.45.30:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.17-14.45.30:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.17-14.45.30:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.17-14.45.30:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.17-14.45.38:423][  0]SourceControl: Source control is disabled
-[2019.04.17-14.45.38:487][  0]Cmd: MAP LOAD FILE="../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.17-14.45.38:504][  0]LightingResults: New page: Lighting Build
-[2019.04.17-14.45.38:699][  0]MapCheck: New page: Map Check
-[2019.04.17-14.45.38:699][  0]LightingResults: New page: Lighting Build
-[2019.04.17-14.45.41:673][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.04.17-14.45.42:515][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.04.17-14.45.42:777][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.17-14.45.42:777][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.109ms to complete.
-[2019.04.17-14.45.42:777][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 4.344
-[2019.04.17-14.45.44:874][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-14.45.44:892][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-14.45.44:909][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-14.45.44:921][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-14.45.44:995][  0]LogCollectionManager: Loaded 0 collections in 0.002895 seconds
-[2019.04.17-14.45.45:116][  0]LogFileCache: Scanning file cache for directory 'D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Collections/' took 0.01s
-[2019.04.17-14.45.45:117][  0]LogFileCache: Scanning file cache for directory 'D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/Developers/AustinWeiler/Collections/' took 0.01s
-[2019.04.17-14.45.45:117][  0]LogFileCache: Scanning file cache for directory 'D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/Collections/' took 0.01s
-[2019.04.17-14.45.45:117][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.04.17-14.45.45:142][  0]LogContentBrowser: Native class hierarchy populated in 0.0250 seconds. Added 2710 classes and 655 folders.
-[2019.04.17-14.45.45:275][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2019.04.17-14.45.45:556][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.45:630][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.45:665][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.45:710][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.45:756][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.45:800][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.45:863][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.45:897][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.45:965][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:022][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:040][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:101][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:135][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:145][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:172][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:228][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:292][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:339][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:398][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:470][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:527][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:559][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:620][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:662][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:712][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:734][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:749][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.46:817][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.17-14.45.50:207][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2019.04.17-14.45.51:506][  0]LogSlate: Took 0.044739 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.04.17-14.45.51:568][  0]LogSlate: Took 0.052901 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.04.17-14.45.51:839][  0]LogSlate: Took 0.035677 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.04.17-14.45.52:991][  0]LogRenderer: Reallocating scene render targets to support 1164x664 Format 10 NumSamples 1 (Frame:1).
-[2019.04.17-14.45.54:912][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2019.04.17-14.45.54:912][  0]LogLoad: (Engine Initialization) Total time: 106.31 seconds
-[2019.04.17-14.45.54:912][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.04.17-14.45.55:280][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.04.17-14.45.55:560][  0]LogSlate: Took 0.139845 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.17-14.45.56:093][  3]LogAssetRegistry: Asset discovery search completed in 76.7645 seconds
-[2019.04.17-14.45.56:097][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.04.17-14.45.56:097][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000180 seconds (updated 0 objects)
-[2019.04.17-14.46.19:217][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Circle_003)
-[2019.04.17-14.46.21:724][642]Cmd: DELETE
-[2019.04.17-14.46.21:724][642]Cmd: ACTOR DELETE
-[2019.04.17-14.46.21:808][642]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.04.17-14.46.21:874][642]LogEditorActor: Deleted 1 Actors (0.121 secs)
-[2019.04.17-14.46.22:490][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-14.46.24:971][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-14.46.50:649][ 33]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.17-14.46.53:574][ 33]LogTexture: Display: Building textures: T_ML_FineRubber (AutoDXT, 2048X2048)
-[2019.04.17-14.46.54:124][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/CubeMaterial691338BC496101C1B05511A6D3C48BFF.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/Geometry/Meshes/CubeMaterial.uasset'
-[2019.04.17-14.46.54:216][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/1M_CubeEF7E16B74A8A19A23C3AB0BD9928E3A9.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/Geometry/Meshes/1M_Cube.uasset'
-[2019.04.17-14.46.54:226][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/1M_Cube" FILE="../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/Geometry/Meshes/1M_Cube.uasset" SILENT=true
-[2019.04.17-14.46.54:302][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/1M_CubeE5E99E544C7B8C25408024A67B61ADBA.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/Geometry/Meshes/1M_Cube.uasset'
-[2019.04.17-14.46.54:379][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/1M_Cube_ChamferCE998CE244568AEF8AA6D5B7D822D94A.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/Geometry/Meshes/1M_Cube_Chamfer.uasset'
-[2019.04.17-14.46.54:452][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/TemplateFloor06CC8D934529856140CC93AF520DCCBC.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/Geometry/Meshes/TemplateFloor.uasset'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_157' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_172' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_181' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_192' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_34' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_62' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:HasWrench' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:BaseLookUpRate' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:BaseTurnRate' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:FirstPersonCamera' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:L_MotionController' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:R_MotionController' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:HasWrench' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:BaseLookUpRate' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:BaseTurnRate' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:FirstPersonCamera' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:L_MotionController' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:R_MotionController' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:457][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
-[2019.04.17-14.46.55:471][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
-[2019.04.17-14.46.55:471][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonGameMode.SKEL_FirstPersonGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
-[2019.04.17-14.46.55:471][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonGameMode.SKEL_FirstPersonGameMode_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
-[2019.04.17-14.46.55:471][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonGameMode.SKEL_FirstPersonGameMode_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
-[2019.04.17-14.46.55:472][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
-[2019.04.17-14.46.55:827][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' ref from Metadata '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.PackageMetaData'
-[2019.04.17-14.46.55:827][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.SKEL_FirstPersonExampleMap_C' ref from Metadata '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.PackageMetaData'
-[2019.04.17-14.46.55:835][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C' ref from Metadata '/Game/FirstPersonBP/FirstPersonOverview.PackageMetaData'
-[2019.04.17-14.46.55:835][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPersonBP/FirstPersonOverview.SKEL_FirstPersonOverview_C' ref from Metadata '/Game/FirstPersonBP/FirstPersonOverview.PackageMetaData'
-[2019.04.17-14.46.56:472][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonExampleMap_BuiltDataB30E46B6466AE73A5E69E98B78A7EF49.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2019.04.17-14.46.56:521][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonCharacterA4B623694E096B3BC12195A3774951E1.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
-[2019.04.17-14.46.56:542][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonGameModeC87E29F144451F7C2B70CBAF3D080317.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset'
-[2019.04.17-14.46.56:686][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/seamlessSteel_1_E2167D204F586F366AD52F8D0BCEE4EA.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Maps/seamlessSteel_1_.uasset'
-[2019.04.17-14.46.56:728][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/seamlessSteel_1__MatB0C2AC954733E2616DBCB6A1E2A355C2.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Maps/seamlessSteel_1__Mat.uasset'
-[2019.04.17-14.46.56:793][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Submarine6875A46B45E88F24DFAAA9B2F6F2011F.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Maps/Submarine.uasset'
-[2019.04.17-14.46.57:128][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonExampleMap64675B8E4CD18EE458799887ECE3E643.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.04.17-14.46.57:192][ 33]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.382
-[2019.04.17-14.46.57:216][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonOverviewE822844F4D6E408A006E41ABE943C2E4.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/FirstPersonOverview.uasset'
-[2019.04.17-14.46.58:395][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Wrench_Pickup" FILE="../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/Blueprints/Wrench_Pickup.uasset" SILENT=true
-[2019.04.17-14.46.58:452][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Wrench_Pickup2CBA7D4641F03EB826FE9FA3377D2EC9.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/Blueprints/Wrench_Pickup.uasset'
-[2019.04.17-14.46.58:459][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/Circle_003" FILE="../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/FirstPersonBP/Maps/Circle_003.uasset" SILENT=true
-[2019.04.17-14.46.58:473][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Circle_0031DD5B0E442172CD89695F4A23F4A338E.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/FirstPersonBP/Maps/Circle_003.uasset'
-[2019.04.17-14.46.58:533][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
-[2019.04.17-14.46.58:533][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
-[2019.04.17-14.46.58:533][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:bIsInAir' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
-[2019.04.17-14.46.58:533][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C:IsMoving' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
-[2019.04.17-14.46.58:533][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPerson/Animations/FirstPerson_AnimBP.SKEL_FirstPerson_AnimBP_C' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
-[2019.04.17-14.46.58:533][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:bIsInAir' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
-[2019.04.17-14.46.58:533][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:IsMoving' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
-[2019.04.17-14.46.58:533][ 33]LogMetaData: Removing '/Game/TemplateStuff/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/FirstPerson/Animations/FirstPerson_AnimBP.PackageMetaData'
-[2019.04.17-14.46.59:617][ 33]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms'
-[2019.04.17-14.46.59:750][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonFire_Montage0A8F371F4247CB77612A99BFCA031D2E.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Animations/FirstPersonFire_Montage.uasset'
-[2019.04.17-14.46.59:945][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPerson_AnimBP4C59D1864A3F29BCBC36AD977133409D.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Animations/FirstPerson_AnimBP.uasset'
-[2019.04.17-14.47.00:019][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPerson_FireD6BFB0044F2E64BD144FE69EB11E6F93.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Animations/FirstPerson_Fire.uasset'
-[2019.04.17-14.47.00:099][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPerson_Idle22E7463B472376685A0666903566FA0F.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Animations/FirstPerson_Idle.uasset'
-[2019.04.17-14.47.00:157][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPerson_JumpEnd9E8EADC1468435782F35D4A9193BAE44.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Animations/FirstPerson_JumpEnd.uasset'
-[2019.04.17-14.47.00:223][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPerson_JumpLoopFD5B663E4D51530B670FB2A394C0E809.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Animations/FirstPerson_JumpLoop.uasset'
-[2019.04.17-14.47.00:297][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPerson_JumpStartB46D979C464876E1437221A1FC07D615.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Animations/FirstPerson_JumpStart.uasset'
-[2019.04.17-14.47.00:373][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPerson_RunB4430EEB4DC5F66AD9AA71802376886D.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Animations/FirstPerson_Run.uasset'
-[2019.04.17-14.47.00:413][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonTemplateWeaponFire026DBBC5E14CF928C7450C5C9945CD8C00.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uasset'
-[2019.04.17-14.47.00:514][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/M_UE4Man_Body092DA11146C2A658901A998373C7608E.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Character/Materials/M_UE4Man_Body.uasset'
-[2019.04.17-14.47.00:536][ 33]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
-[2019.04.17-14.47.00:745][ 33]LogShaderCompilers: Display: Shaders left to compile 44
-[2019.04.17-14.47.00:745][ 33]LogShaderCompilers: Display: Shaders left to compile 34
-[2019.04.17-14.47.00:745][ 33]LogShaderCompilers: Display: Shaders left to compile 24
-[2019.04.17-14.47.00:745][ 33]LogShaderCompilers: Display: Shaders left to compile 14
-[2019.04.17-14.47.00:745][ 33]LogShaderCompilers: Display: Shaders left to compile 4
-[2019.04.17-14.47.00:815][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/ML_GlossyBlack_Latex_UE4BCEB8CE1480CAF49C2357C9667D94A1F.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset'
-[2019.04.17-14.47.00:826][ 33]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
-[2019.04.17-14.47.00:942][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/ML_Plastic_Shiny_Beige9486E7CA4F8B43B2CB991AA05FF8C86C.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset'
-[2019.04.17-14.47.00:946][ 33]LogShaderCompilers: Display: Shaders left to compile 44
-[2019.04.17-14.47.00:946][ 33]LogShaderCompilers: Display: Shaders left to compile 34
-[2019.04.17-14.47.00:946][ 33]LogShaderCompilers: Display: Shaders left to compile 24
-[2019.04.17-14.47.00:946][ 33]LogShaderCompilers: Display: Shaders left to compile 14
-[2019.04.17-14.47.00:946][ 33]LogShaderCompilers: Display: Shaders left to compile 4
-[2019.04.17-14.47.00:959][ 33]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
-[2019.04.17-14.47.01:052][ 33]LogShaderCompilers: Display: Shaders left to compile 44
-[2019.04.17-14.47.01:052][ 33]LogShaderCompilers: Display: Shaders left to compile 34
-[2019.04.17-14.47.01:052][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/ML_Plastic_Shiny_Beige_LOGO5EA54BD148BF5E8C02BDF7910ADC37C8.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset'
-[2019.04.17-14.47.01:065][ 33]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
-[2019.04.17-14.47.01:143][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/ML_SoftMetal_UE493AA307C460A94F043B5109858E0EAC8.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset'
-[2019.04.17-14.47.01:241][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/T_ML_Aluminum017A87DC2442CE63ECDCF85FA8CDCB8AFC.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset'
-[2019.04.17-14.47.01:310][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/T_ML_Aluminum01_N7679F2094D82A206134FF99393569EB8.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset'
-[2019.04.17-14.47.01:409][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/T_ML_Rubber_Blue_01_D2273260547849879E324FDAACDAF7384.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset'
-[2019.04.17-14.47.01:470][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/T_ML_Rubber_Blue_01_N9A85027E4A1405A3354D80B2DD9E10A6.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset'
-[2019.04.17-14.47.01:550][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/SK_Mannequin_Arms6D98A00444F4FF16A0001AB4D8EABA36.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset'
-[2019.04.17-14.47.01:600][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/SK_Mannequin_Arms_PhysicsAssetB69764C649A688F5578635B92C7B6CBB.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset'
-[2019.04.17-14.47.01:617][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/SK_Mannequin_Arms_SkeletonDD973A334D752CC909D3359869AC7B57.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset'
-[2019.04.17-14.47.01:643][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/UE4_LOGO_CARD18A4E30546F989D8D10C91A0DB62CBA9.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset'
-[2019.04.17-14.47.01:678][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/UE4_Mannequin_MAT_MASKA13EFA239406848FEF76666BBB6923060.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset'
-[2019.04.17-14.47.01:748][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/UE4_Mannequin__normalsAF6A77A5433DE8179B23A59F52DDC9C8.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset'
-[2019.04.17-14.47.01:799][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/M_FPGunF908C562494F9DF4136EC1BCDA99DF33.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/FPWeapon/Materials/M_FPGun.uasset'
-[2019.04.17-14.47.01:812][ 33]LogMaterial: Display: Missing cached shader map for material Material_4, compiling. 
-[2019.04.17-14.47.01:886][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/ML_GlossyBlack_Latex_UE4E03CF1A9443608C61915CFA97E354447.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset'
-[2019.04.17-14.47.01:896][ 33]LogMaterial: Display: Missing cached shader map for material Material_5, compiling. 
-[2019.04.17-14.47.01:987][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/ML_Plastic_Shiny_BeigeF5FE994F4C458505761C7F8D587E176C.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset'
-[2019.04.17-14.47.02:000][ 33]LogMaterial: Display: Missing cached shader map for material Material_6, compiling. 
-[2019.04.17-14.47.02:082][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/ML_Plastic_Shiny_Beige_LOGO5B3668244E72FD1CFEE6C0A1760DB3A0.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset'
-[2019.04.17-14.47.02:102][ 33]LogMaterial: Display: Missing cached shader map for material Material_7, compiling. 
-[2019.04.17-14.47.02:193][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/ML_Screen3EDF78704ECDDBE1F5F9AF9179EE39FD.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.uasset'
-[2019.04.17-14.47.02:210][ 33]LogMaterial: Display: Missing cached shader map for material Material_8, compiling. 
-[2019.04.17-14.47.02:300][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/ML_SoftMetal_UE4C803ED7E47B40E4127027482CCC24F8C.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset'
-[2019.04.17-14.47.02:418][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/T_ML_Aluminum01D0FE8DE046F60C0BD95BF8B3C6877F6E.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset'
-[2019.04.17-14.47.02:506][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/T_ML_Aluminum01_N208607F14D9444BEDC4B108DDCAEF012.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset'
-[2019.04.17-14.47.02:598][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/T_ML_FineRubber9C23DE814D6974660F33E894C751067E.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uasset'
-[2019.04.17-14.47.02:684][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/T_ML_Rubber_Blue_01_D23AD5C10497AB7B32F4806A5165C94A5.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset'
-[2019.04.17-14.47.02:760][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/T_ML_Rubber_Blue_01_N8DF38E094731F5D5607D2289559899B2.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset'
-[2019.04.17-14.47.02:847][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/SK_FPGun62A4EC364533D702D25E8C8BE416F07A.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/FPWeapon/Mesh/SK_FPGun.uasset'
-[2019.04.17-14.47.02:909][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/SK_FPGun_PhysicsAssetD73655EA4C9C1ADA1570CCA407501093.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset'
-[2019.04.17-14.47.02:931][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/SK_FPGun_SkeletonD6625E54434137D1121686A45A98614B.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
-[2019.04.17-14.47.02:978][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/T_FPGun_MAA3DB8E240E16073F126C5B3A87733EC.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/FPWeapon/Textures/T_FPGun_M.uasset'
-[2019.04.17-14.47.03:042][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/T_FPGun_N77BBD6D44FCD569AE3AAAD907376B8F2.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/FPWeapon/Textures/T_FPGun_N.uasset'
-[2019.04.17-14.47.03:106][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/BaseMaterial5348E6B147EE645F9F6FDDBD4D2B49F2.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Meshes/BaseMaterial.uasset'
-[2019.04.17-14.47.03:162][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/CubeMaterialOverride7B306EBD4DDB3F9793E05BA71194CEAC.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Meshes/CubeMaterialOverride.uasset'
-[2019.04.17-14.47.03:166][ 33]LogShaderCompilers: Display: Shaders left to compile 288
-[2019.04.17-14.47.03:226][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonProjectileMaterial1FB129C54BF38810D6344BAE767D0A60.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Meshes/FirstPersonProjectileMaterial.uasset'
-[2019.04.17-14.47.03:243][ 33]LogShaderCompilers: Display: Shaders left to compile 278
-[2019.04.17-14.47.03:291][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonProjectileMesh931035C6472AED55A06FA39CF53F2325.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset'
-[2019.04.17-14.47.03:316][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonCrosshairF7D3A9594CA9096875F16EAE9A0791C2.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPerson/Textures/FirstPersonCrosshair.uasset'
-[2019.04.17-14.47.04:021][ 33]LogShaderCompilers: Display: Shaders left to compile 268
-[2019.04.17-14.47.04:021][ 33]LogShaderCompilers: Display: Shaders left to compile 258
-[2019.04.17-14.47.04:021][ 33]LogShaderCompilers: Display: Shaders left to compile 248
-[2019.04.17-14.47.04:021][ 33]LogShaderCompilers: Display: Shaders left to compile 238
-[2019.04.17-14.47.04:252][ 33]LogShaderCompilers: Display: Shaders left to compile 228
-[2019.04.17-14.47.04:252][ 33]LogShaderCompilers: Display: Shaders left to compile 218
-[2019.04.17-14.47.04:464][ 33]LogShaderCompilers: Display: Shaders left to compile 208
-[2019.04.17-14.47.04:464][ 33]LogShaderCompilers: Display: Shaders left to compile 198
-[2019.04.17-14.47.05:821][ 33]LogShaderCompilers: Display: Shaders left to compile 188
-[2019.04.17-14.47.05:821][ 33]LogShaderCompilers: Display: Shaders left to compile 178
-[2019.04.17-14.47.06:049][ 33]LogShaderCompilers: Display: Shaders left to compile 168
-[2019.04.17-14.47.06:049][ 33]LogShaderCompilers: Display: Shaders left to compile 158
-[2019.04.17-14.47.06:473][ 33]LogShaderCompilers: Display: Shaders left to compile 148
-[2019.04.17-14.47.06:473][ 33]LogShaderCompilers: Display: Shaders left to compile 138
-[2019.04.17-14.47.06:473][ 33]LogShaderCompilers: Display: Shaders left to compile 128
-[2019.04.17-14.47.06:684][ 33]LogShaderCompilers: Display: Shaders left to compile 118
-[2019.04.17-14.47.07:311][ 33]LogShaderCompilers: Display: Shaders left to compile 108
-[2019.04.17-14.47.07:522][ 33]LogShaderCompilers: Display: Shaders left to compile 98
-[2019.04.17-14.47.07:522][ 33]LogShaderCompilers: Display: Shaders left to compile 88
-[2019.04.17-14.47.07:938][ 33]LogShaderCompilers: Display: Shaders left to compile 78
-[2019.04.17-14.47.07:938][ 33]LogShaderCompilers: Display: Shaders left to compile 68
-[2019.04.17-14.47.08:048][ 33]LogShaderCompilers: Display: Shaders left to compile 58
-[2019.04.17-14.47.08:329][ 33]LogShaderCompilers: Display: Shaders left to compile 48
-[2019.04.17-14.47.08:972][ 33]LogShaderCompilers: Display: Shaders left to compile 38
-[2019.04.17-14.47.10:031][ 33]LogShaderCompilers: Display: Shaders left to compile 28
-[2019.04.17-14.47.10:058][ 33]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonAnimBlueprint_Copy13282A114DDE65A92231E692DB773CBC.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/FirstPerson/Character/Mesh/FirstPersonAnimBlueprint_Copy.uasset'
-[2019.04.17-14.47.10:855][ 34]LogShaderCompilers: Display: Shaders left to compile 18
-[2019.04.17-14.47.10:856][ 34]LogShaderCompilers: Display: Shaders left to compile 8
-[2019.04.17-14.47.12:609][178]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.17-14.47.12:635][178]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.17-14.47.12:636][178]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.04.17-14.47.12:640][178]LogPlayLevel: [PlayLevel] Compiling Wrench_Pickup before play...
-[2019.04.17-14.47.12:794][178]LogPlayLevel: PlayLevel: Blueprint regeneration took 158 ms (1 blueprints)
-[2019.04.17-14.47.12:806][178]PIE: New page: PIE session: FirstPersonExampleMap (Apr 17, 2019, 6:47:12 AM)
-[2019.04.17-14.47.12:853][178]LogPlayLevel: Creating play world package: /Game/TemplateStuff/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.04.17-14.47.12:864][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011237s)
-[2019.04.17-14.47.12:865][178]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.04.17-14.47.12:866][178]LogPlayLevel: PIE: World Init took: (0.000811s)
-[2019.04.17-14.47.12:866][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/TemplateStuff/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012722s)
-[2019.04.17-14.47.12:949][178]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.17-14.47.12:968][178]LogInit: FAudioDevice initialized.
-[2019.04.17-14.47.13:032][178]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.17-14.47.13:054][178]LogWorld: Bringing World /Game/TemplateStuff/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.04.17-10.47.13
-[2019.04.17-14.47.13:054][178]LogWorld: Bringing up level for play took: 0.001234
-[2019.04.17-14.47.13:117][178]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2019.04.17-14.47.13:134][178]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
-[2019.04.17-14.47.13:135][178]PIE: Play in editor start time for /Game/TemplateStuff/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.321
-[2019.04.17-14.47.13:135][178]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.17-14.47.17:130][643]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=-13.59 Y=-381.41 Z=0.00 Location: X=9292.98 Y=-641.54 Z=6257.28 Normal: X=0.98 Y=0.00 Z=-0.21 PenetrationDepth:0.253 Actor:USS_AshevilleTest_solid__2 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
-[2019.04.17-14.47.19:049][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.17-14.47.19:049][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-14.47.19:104][873]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.17-14.47.19:105][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.17-14.47.19:161][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-14.47.19:185][874]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.04.17-14.47.26:068][689]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-14.47.43:932][502]LogSlate: Window 'Delete Assets' being destroyed
-[2019.04.17-14.47.54:930][761]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (44.068 sec). This should never happen. Something is wrong with the timer delegate!
-[2019.04.17-14.48.09:866][532]LogEditorViewport: Clicking on Actor (LMB): Wrench_Pickup_C (Wrench_Pickup)
-[2019.04.17-14.48.11:584][698]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2019.04.17-14.48.13:141][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-14.48.13:231][855]MapCheck: New page: Map Check
-[2019.04.17-14.48.13:240][855]Cmd: MAP REBUILD ALLVISIBLE
-[2019.04.17-14.48.13:240][855]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2019.04.17-14.48.13:356][855]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
-[2019.04.17-14.48.13:367][855]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
-[2019.04.17-14.48.13:375][855]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.04.17-14.48.13:375][855]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.04.17-14.48.13:375][855]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy SteelMaterial, compiling. 
-[2019.04.17-14.48.13:383][855]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2019.04.17-14.48.13:392][855]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
-[2019.04.17-14.48.13:793][855]LogShaderCompilers: Display: Shaders left to compile 3
-[2019.04.17-14.48.13:793][855]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.04.17-14.48.13:793][855]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.04.17-14.48.13:793][855]TextureStreamingBuild: Display: Compiling optional shaders took 0.452 seconds.
-[2019.04.17-14.48.13:838][855]LogLevel: Display: Export Material TexCoord Scales took 0.045 seconds.
-[2019.04.17-14.48.13:859][855]TextureStreamingBuild: Display: Build Texture Streaming took 0.020 seconds.
-[2019.04.17-14.48.13:945][855]LightingResults: New page: Lighting Build - Apr 17, 2019, 6:48:13 AM
-[2019.04.17-14.48.14:140][855]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2019.04.17-14.48.14:433][855]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2019.04.17-14.48.14:458][855]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2019.04.17-14.48.15:492][855]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2019.04.17-14.48.15:492][855]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5308
-[2019.04.17-14.48.17:186][855]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2019.04.17-14.48.17:186][855]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2019.04.17-14.48.17:186][855]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2019.04.17-14.48.17:186][855]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2019.04.17-14.48.17:186][855]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2019.04.17-14.48.17:656][855]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2019.04.17-14.48.17:656][855]MapCheck: New page: FirstPersonExampleMap - Apr 17, 2019, 6:48:17 AM
-[2019.04.17-14.48.17:662][855]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
-[2019.04.17-14.48.17:676][855]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 19.998ms to complete.
-[2019.04.17-14.48.17:700][855]LogEditorBuildUtils: Build time 0:04
-[2019.04.17-14.48.25:801][880]LightingResults: Warning: USS_AshevilleTest_solid_ Object has overlapping UVs.
-[2019.04.17-14.48.25:801][880]LightingResults: USS_AshevilleTest_solid_ Lightmap UV are overlapping by 50.3%. Please adjust content - Enable Error Coloring to visualize.
-[2019.04.17-14.48.40:970][867]Job is a success!
-[2019.04.17-14.48.41:304][868]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.013s
-[2019.04.17-14.48.41:304][868]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2019.04.17-14.48.41:304][868]LogVolumetricLightmapImport:      BrickData 335x5x5 = 0.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
-[2019.04.17-14.48.41:304][868]LogVolumetricLightmapImport:      Bricks at Level
-[2019.04.17-14.48.41:304][868]LogVolumetricLightmapImport:          0: 1.5% covering 100.0% of volume
-[2019.04.17-14.48.41:304][868]LogVolumetricLightmapImport:          1: 6.0% covering 6.3% of volume
-[2019.04.17-14.48.41:304][868]LogVolumetricLightmapImport:          2: 92.5% covering 1.5% of volume
-[2019.04.17-14.48.42:928][868]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
-[2019.04.17-14.48.42:928][868]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
-[2019.04.17-14.48.42:928][868]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
-[2019.04.17-14.48.42:928][868]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
-[2019.04.17-14.48.42:929][868]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
-[2019.04.17-14.48.42:929][868]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
-[2019.04.17-14.48.42:929][868]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
-[2019.04.17-14.48.42:929][868]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
-[2019.04.17-14.48.42:929][868]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
-[2019.04.17-14.48.42:929][868]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024)
-[2019.04.17-14.48.42:929][868]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048)
-[2019.04.17-14.48.42:929][868]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048)
-[2019.04.17-14.48.42:929][868]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 128X64)
-[2019.04.17-14.48.42:929][868]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 128X128)
-[2019.04.17-14.48.42:929][868]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 64X32)
-[2019.04.17-14.48.42:929][868]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 128X128)
-[2019.04.17-14.48.42:929][868]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 64X64)
-[2019.04.17-14.48.42:929][868]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 64X64)
-[2019.04.17-14.48.43:129][868]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 32X32)
-[2019.04.17-14.48.43:129][868]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 64X64)
-[2019.04.17-14.48.43:323][868]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X1024)
-[2019.04.17-14.48.43:323][868]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
-[2019.04.17-14.48.43:323][868]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
-[2019.04.17-14.48.43:323][868]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
-[2019.04.17-14.48.43:323][868]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X1024)
-[2019.04.17-14.48.43:323][868]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X1024)
-[2019.04.17-14.48.43:323][868]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X1024)
-[2019.04.17-14.48.43:359][868]Lightmass on DESKTOP-EF7ETIK: 24.0 sec total, 296 ms importing, 42 ms setup, 5.21 sec photons, 18.4 sec processing, 0 ms extra exporting [9/9 mappings]. Threads: 4:36 min total, 1:30 min processing.
-[2019.04.17-14.48.43:413][868]LogStaticLightingSystem: Illumination: 29.2 sec (1.24 sec encoding lightmaps, 391 ms encoding shadowmaps)
-[2019.04.17-14.48.43:413][868]LogStaticLightingSystem: Lightmap texture memory:  42.7 MB (42.7 MB streaming, 0.0 MB non-streaming), 12 textures
-[2019.04.17-14.48.43:413][868]LogStaticLightingSystem: Shadowmap texture memory: 9.3 MB (9.3 MB streaming, 0.0 MB non-streaming), 9 textures
-[2019.04.17-14.48.44:199][868]DumpUnbuiltLightIteractions
-[2019.04.17-14.48.44:199][868]Lights with unbuilt interactions: 0
-[2019.04.17-14.48.44:199][868]
-[2019.04.17-14.48.44:199][868]Primitives with unbuilt interactions: 0
-[2019.04.17-14.48.44:297][869]Cmd: MAP CHECK NOTIFYRESULTS
-[2019.04.17-14.48.44:297][869]MapCheck: New page: FirstPersonExampleMap - Apr 17, 2019, 6:48:44 AM
-[2019.04.17-14.48.44:298][869]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.82ms to complete.
-[2019.04.17-14.48.46:952][153]LogSlate: Window 'Message Log' being destroyed
-[2019.04.17-14.48.46:956][153]LogSlate: Window 'Message Log' being destroyed
-[2019.04.17-14.48.52:853][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (USS_AshevilleTest_solid_)
-[2019.04.17-14.48.53:736][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (USS_AshevilleTest_solid_)
-[2019.04.17-14.48.55:167][  3]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
-[2019.04.17-14.49.11:385][651]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-14.49.11:742][659]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonExampleMapAF5781FE4286391F20D927861948A928.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.04.17-14.49.12:452][659]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonExampleMap_BuiltData33CD35A847F8D642E8DA63BC59BC2CCF.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2019.04.17-14.49.13:110][723]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.17-14.49.13:131][723]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.17-14.49.13:131][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.17-14.49.13:131][723]PIE: New page: PIE session: FirstPersonExampleMap (Apr 17, 2019, 6:49:13 AM)
-[2019.04.17-14.49.13:131][723]LogPlayLevel: Creating play world package: /Game/TemplateStuff/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.04.17-14.49.13:147][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016479s)
-[2019.04.17-14.49.13:148][723]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.04.17-14.49.13:148][723]LogPlayLevel: PIE: World Init took: (0.000720s)
-[2019.04.17-14.49.13:148][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/TemplateStuff/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017450s)
-[2019.04.17-14.49.13:235][723]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.17-14.49.13:251][723]LogInit: FAudioDevice initialized.
-[2019.04.17-14.49.13:287][723]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.04.17-14.49.13:289][723]LogWorld: Bringing World /Game/TemplateStuff/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.04.17-10.49.13
-[2019.04.17-14.49.13:289][723]LogWorld: Bringing up level for play took: 0.000993
-[2019.04.17-14.49.13:302][723]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2019.04.17-14.49.13:303][723]PIE: Play in editor start time for /Game/TemplateStuff/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.154
-[2019.04.17-14.49.13:303][723]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.17-14.49.15:206][947]LogBlueprintUserMessages: [Wrench_Pickup_2] Acquired Wrench
-[2019.04.17-14.49.26:630][310]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.17-14.49.26:631][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-14.49.26:673][310]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.17-14.49.26:674][310]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.04.17-14.49.26:726][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-14.49.26:740][311]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.04.17-14.49.33:327][ 92]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-14.49.33:645][ 99]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonExampleMapDE5CE2DD47452FECC756E3B695979855.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.04.17-14.49.34:302][ 99]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonExampleMap_BuiltDataD6CAC224448DAE0F5D1F7297205F24D1.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2019.04.17-14.49.49:406][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Submarine/SteelMaterial" FILE="../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/Meshes/Submarine/SteelMaterial.uasset" SILENT=true
-[2019.04.17-14.49.49:437][861]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/SteelMaterial5D5137D24A2B168F37A63FB9161AF10A.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/Meshes/Submarine/SteelMaterial.uasset'
-[2019.04.17-14.49.49:496][861]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/USS_AshevilleTest_solid_58F77F14455E2FAE3078D48C73067F65.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/Meshes/Submarine/USS_AshevilleTest_solid_.uasset'
-[2019.04.17-14.49.49:503][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/USS_AshevilleTest_solid_" FILE="../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/Meshes/USS_AshevilleTest_solid_.uasset" SILENT=true
-[2019.04.17-14.49.49:523][861]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/USS_AshevilleTest_solid_0446883B4B3F8059012ED6A5E19E5053.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/Meshes/USS_AshevilleTest_solid_.uasset'
-[2019.04.17-14.50.03:650][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-14.50.03:953][521]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonExampleMap1FC13D51427538799FFFBCBA21195085.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.04.17-14.50.04:572][521]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonExampleMap_BuiltData6D7A1BE4408189D0468DFDBC58AEC26B.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2019.04.17-14.50.06:084][681]LogSlate: Window 'SeaMadness - Unreal Editor' being destroyed
-[2019.04.17-14.50.06:085][681]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.17-14.50.06:365][682]Cmd: QUIT_EDITOR
-[2019.04.17-14.50.07:127][682]LogExit: Preparing to exit.
-[2019.04.17-14.50.07:775][682]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2019.04.17-14.50.07:776][682]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2019.04.17-14.50.07:776][682]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2019.04.17-14.50.07:776][682]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2019.04.17-14.50.07:776][682]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2019.04.17-14.50.07:776][682]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2019.04.17-14.50.07:776][682]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
-[2019.04.17-14.50.07:849][682]LogExit: Editor shut down
-[2019.04.17-14.50.07:849][682]LogExit: Transaction tracking system shut down
-[2019.04.17-14.50.08:430][682]LogExit: Object subsystem successfully closed.
-[2019.04.17-14.50.08:514][682]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.04.17-14.50.08:578][682]LogD3D11RHI: Shutdown
-[2019.04.17-14.50.08:578][682]LogD3D11RHI: CleanupD3DDevice
-[2019.04.17-14.50.08:582][682]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.04.17-14.50.08:903][682]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (650)
-[2019.04.17-14.50.08:903][682]LogModuleManager: Shutting down and abandoning module Voice (648)
-[2019.04.17-14.50.08:903][682]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (646)
-[2019.04.17-14.50.08:903][682]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
-[2019.04.17-14.50.08:903][682]LogModuleManager: Shutting down and abandoning module AddContentDialog (642)
-[2019.04.17-14.50.08:903][682]LogModuleManager: Shutting down and abandoning module WidgetCarousel (641)
-[2019.04.17-14.50.08:903][682]LogModuleManager: Shutting down and abandoning module EditorWidgets (638)
-[2019.04.17-14.50.08:903][682]LogModuleManager: Shutting down and abandoning module CollectionManager (636)
-[2019.04.17-14.50.08:904][682]LogModuleManager: Shutting down and abandoning module SceneOutliner (634)
-[2019.04.17-14.50.08:904][682]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
-[2019.04.17-14.50.08:904][682]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
-[2019.04.17-14.50.08:904][682]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
-[2019.04.17-14.50.08:916][682]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
-[2019.04.17-14.50.08:916][682]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
-[2019.04.17-14.50.08:916][682]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
-[2019.04.17-14.50.08:916][682]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
-[2019.04.17-14.50.08:916][682]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
-[2019.04.17-14.50.08:916][682]LogModuleManager: Shutting down and abandoning module BspMode (616)
-[2019.04.17-14.50.08:916][682]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
-[2019.04.17-14.50.08:916][682]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
-[2019.04.17-14.50.08:916][682]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
-[2019.04.17-14.50.08:917][682]LogModuleManager: Shutting down and abandoning module DatasmithFBXImporter (608)
-[2019.04.17-14.50.08:927][682]LogModuleManager: Shutting down and abandoning module DatasmithDeltaGenImporter (606)
-[2019.04.17-14.50.08:927][682]LogModuleManager: Shutting down and abandoning module DatasmithVREDImporter (604)
-[2019.04.17-14.50.08:927][682]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (602)
-[2019.04.17-14.50.08:927][682]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (600)
-[2019.04.17-14.50.08:927][682]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (598)
-[2019.04.17-14.50.08:934][682]LogModuleManager: Shutting down and abandoning module PlacementMode (597)
-[2019.04.17-14.50.08:934][682]LogModuleManager: Shutting down and abandoning module MaterialEditor (596)
-[2019.04.17-14.50.08:939][682]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (592)
-[2019.04.17-14.50.08:939][682]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (590)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (588)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (586)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module WebMMedia (584)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (582)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (580)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module SequenceRecorder (579)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (576)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (574)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (572)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (570)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (568)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (566)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (564)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (562)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
-[2019.04.17-14.50.08:940][682]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
-[2019.04.17-14.50.08:941][682]LogModuleManager: Shutting down and abandoning module SessionServices (552)
-[2019.04.17-14.50.08:941][682]LogModuleManager: Shutting down and abandoning module ViewportSnapping (550)
-[2019.04.17-14.50.08:941][682]LogModuleManager: Shutting down and abandoning module ViewportInteraction (548)
-[2019.04.17-14.50.08:955][682]LogModuleManager: Shutting down and abandoning module ClothPainter (546)
-[2019.04.17-14.50.08:955][682]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (545)
-[2019.04.17-14.50.08:956][682]LogModuleManager: Shutting down and abandoning module LogVisualizer (542)
-[2019.04.17-14.50.08:956][682]LogModuleManager: Shutting down and abandoning module IntroTutorials (540)
-[2019.04.17-14.50.08:956][682]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (539)
-[2019.04.17-14.50.08:957][682]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (536)
-[2019.04.17-14.50.08:957][682]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (534)
-[2019.04.17-14.50.08:957][682]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (532)
-[2019.04.17-14.50.08:957][682]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (530)
-[2019.04.17-14.50.08:957][682]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (529)
-[2019.04.17-14.50.09:825][682]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (526)
-[2019.04.17-14.50.09:825][682]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (524)
-[2019.04.17-14.50.09:825][682]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (522)
-[2019.04.17-14.50.09:825][682]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (520)
-[2019.04.17-14.50.09:825][682]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (518)
-[2019.04.17-14.50.09:826][682]LogModuleManager: Shutting down and abandoning module InputBindingEditor (516)
-[2019.04.17-14.50.09:839][682]LogModuleManager: Shutting down and abandoning module MergeActors (514)
-[2019.04.17-14.50.09:839][682]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (512)
-[2019.04.17-14.50.09:839][682]LogModuleManager: Shutting down and abandoning module LocalizationService (511)
-[2019.04.17-14.50.09:839][682]LogModuleManager: Shutting down and abandoning module HardwareTargeting (508)
-[2019.04.17-14.50.09:839][682]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (506)
-[2019.04.17-14.50.09:839][682]LogModuleManager: Shutting down and abandoning module UndoHistory (504)
-[2019.04.17-14.50.09:839][682]LogModuleManager: Shutting down and abandoning module XmlParser (502)
-[2019.04.17-14.50.09:839][682]LogModuleManager: Shutting down and abandoning module Blutility (500)
-[2019.04.17-14.50.09:839][682]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (498)
-[2019.04.17-14.50.09:839][682]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (497)
-[2019.04.17-14.50.09:840][682]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (494)
-[2019.04.17-14.50.09:840][682]LogModuleManager: Shutting down and abandoning module SettingsEditor (492)
-[2019.04.17-14.50.09:840][682]LogModuleManager: Shutting down and abandoning module ProjectLauncher (490)
-[2019.04.17-14.50.09:851][682]LogModuleManager: Shutting down and abandoning module SessionFrontend (488)
-[2019.04.17-14.50.09:851][682]LogModuleManager: Shutting down and abandoning module ProfilerClient (486)
-[2019.04.17-14.50.09:858][682]LogModuleManager: Shutting down and abandoning module DeviceManager (484)
-[2019.04.17-14.50.09:858][682]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (483)
-[2019.04.17-14.50.09:913][682]LogModuleManager: Shutting down and abandoning module AutomationController (480)
-[2019.04.17-14.50.09:913][682]LogModuleManager: Shutting down and abandoning module AutomationWindow (478)
-[2019.04.17-14.50.09:923][682]LogModuleManager: Shutting down and abandoning module Layers (476)
-[2019.04.17-14.50.09:924][682]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (474)
-[2019.04.17-14.50.09:924][682]LogModuleManager: Shutting down and abandoning module DetailCustomizations (472)
-[2019.04.17-14.50.09:924][682]LogModuleManager: Shutting down and abandoning module PackagesDialog (470)
-[2019.04.17-14.50.09:925][682]LogModuleManager: Shutting down and abandoning module Persona (468)
-[2019.04.17-14.50.09:925][682]LogModuleManager: Shutting down and abandoning module AnimGraph (467)
-[2019.04.17-14.50.09:925][682]LogModuleManager: Shutting down and abandoning module Kismet (464)
-[2019.04.17-14.50.09:936][682]LogModuleManager: Shutting down and abandoning module GraphEditor (462)
-[2019.04.17-14.50.09:964][682]LogModuleManager: Shutting down and abandoning module ClassViewer (460)
-[2019.04.17-14.50.09:964][682]LogModuleManager: Shutting down and abandoning module Toolbox (458)
-[2019.04.17-14.50.09:964][682]LogModuleManager: Shutting down and abandoning module ModuleUI (456)
-[2019.04.17-14.50.09:975][682]LogModuleManager: Shutting down and abandoning module MovieSceneTools (454)
-[2019.04.17-14.50.09:975][682]LogModuleManager: Shutting down and abandoning module OutputLog (452)
-[2019.04.17-14.50.09:975][682]LogModuleManager: Shutting down and abandoning module GammaUI (450)
-[2019.04.17-14.50.09:983][682]LogModuleManager: Shutting down and abandoning module Documentation (448)
-[2019.04.17-14.50.09:983][682]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (446)
-[2019.04.17-14.50.09:983][682]LogModuleManager: Shutting down and abandoning module MovieScene (444)
-[2019.04.17-14.50.09:983][682]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (442)
-[2019.04.17-14.50.09:984][682]LogModuleManager: Shutting down and abandoning module LauncherPlatform (440)
-[2019.04.17-14.50.09:984][682]LogModuleManager: Shutting down and abandoning module AnalyticsET (438)
-[2019.04.17-14.50.09:984][682]LogModuleManager: Shutting down and abandoning module PortalServices (436)
-[2019.04.17-14.50.09:984][682]LogModuleManager: Shutting down and abandoning module PortalRpc (434)
-[2019.04.17-14.50.09:984][682]LogModuleManager: Shutting down and abandoning module MessagingRpc (432)
-[2019.04.17-14.50.09:984][682]LogModuleManager: Shutting down and abandoning module AIModule (430)
-[2019.04.17-14.50.09:984][682]LogModuleManager: Shutting down and abandoning module GameplayDebugger (429)
-[2019.04.17-14.50.09:984][682]LogModuleManager: Shutting down and abandoning module AITestSuite (427)
-[2019.04.17-14.50.09:984][682]LogModuleManager: Shutting down and abandoning module NavigationSystem (425)
-[2019.04.17-14.50.09:984][682]LogModuleManager: Shutting down and abandoning module DesktopPlatform (422)
-[2019.04.17-14.50.09:984][682]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (420)
-[2019.04.17-14.50.09:991][682]LogModuleManager: Shutting down and abandoning module ProfilerService (418)
-[2019.04.17-14.50.10:024][682]LogModuleManager: Shutting down and abandoning module TaskGraph (416)
-[2019.04.17-14.50.10:024][682]LogModuleManager: Shutting down and abandoning module DatasmithCADImporter (414)
-[2019.04.17-14.50.10:025][682]LogModuleManager: Shutting down and abandoning module VariantManager (412)
-[2019.04.17-14.50.10:049][682]LogModuleManager: Shutting down and abandoning module StaticMeshEditorExtension (410)
-[2019.04.17-14.50.10:049][682]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (409)
-[2019.04.17-14.50.10:070][682]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (408)
-[2019.04.17-14.50.10:070][682]LogModuleManager: Shutting down and abandoning module MeshProcessingLibrary (405)
-[2019.04.17-14.50.10:070][682]LogModuleManager: Shutting down and abandoning module MDLImporter (402)
-[2019.04.17-14.50.10:070][682]LogModuleManager: Shutting down and abandoning module DatasmithImporter (400)
-[2019.04.17-14.50.10:080][682]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
-[2019.04.17-14.50.10:080][682]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
-[2019.04.17-14.50.10:080][682]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
-[2019.04.17-14.50.10:080][682]LogModuleManager: Shutting down and abandoning module OculusInput (392)
-[2019.04.17-14.50.10:080][682]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
-[2019.04.17-14.50.10:080][682]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
-[2019.04.17-14.50.10:080][682]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
-[2019.04.17-14.50.10:080][682]LogModuleManager: Shutting down and abandoning module CableComponent (384)
-[2019.04.17-14.50.10:080][682]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
-[2019.04.17-14.50.10:080][682]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
-[2019.04.17-14.50.10:081][682]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
-[2019.04.17-14.50.10:081][682]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
-[2019.04.17-14.50.10:081][682]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
-[2019.04.17-14.50.10:081][682]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
-[2019.04.17-14.50.10:081][682]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
-[2019.04.17-14.50.10:081][682]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
-[2019.04.17-14.50.10:097][682]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
-[2019.04.17-14.50.10:097][682]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
-[2019.04.17-14.50.10:097][682]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
-[2019.04.17-14.50.10:097][682]LogModuleManager: Shutting down and abandoning module BackChannel (360)
-[2019.04.17-14.50.10:111][682]LogModuleManager: Shutting down and abandoning module AppleVision (358)
-[2019.04.17-14.50.10:111][682]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
-[2019.04.17-14.50.10:111][682]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
-[2019.04.17-14.50.10:111][682]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
-[2019.04.17-14.50.10:111][682]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
-[2019.04.17-14.50.10:111][682]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
-[2019.04.17-14.50.10:111][682]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
-[2019.04.17-14.50.10:111][682]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
-[2019.04.17-14.50.10:111][682]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2019.04.17-14.50.10:111][682]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
-[2019.04.17-14.50.10:111][682]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
-[2019.04.17-14.50.10:122][682]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
-[2019.04.17-14.50.10:129][682]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
-[2019.04.17-14.50.10:129][682]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
-[2019.04.17-14.50.10:129][682]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (330)
-[2019.04.17-14.50.10:129][682]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2019.04.17-14.50.10:129][682]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2019.04.17-14.50.10:129][682]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2019.04.17-14.50.10:129][682]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2019.04.17-14.50.10:129][682]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2019.04.17-14.50.10:130][682]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2019.04.17-14.50.10:130][682]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2019.04.17-14.50.10:144][682]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2019.04.17-14.50.10:144][682]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2019.04.17-14.50.10:144][682]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2019.04.17-14.50.10:144][682]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
-[2019.04.17-14.50.10:144][682]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
-[2019.04.17-14.50.10:144][682]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
-[2019.04.17-14.50.10:144][682]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
-[2019.04.17-14.50.10:144][682]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
-[2019.04.17-14.50.10:144][682]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
-[2019.04.17-14.50.10:157][682]LogModuleManager: Shutting down and abandoning module MeshPaint (297)
-[2019.04.17-14.50.10:157][682]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
-[2019.04.17-14.50.10:157][682]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
-[2019.04.17-14.50.10:157][682]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
-[2019.04.17-14.50.10:158][682]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
-[2019.04.17-14.50.10:158][682]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
-[2019.04.17-14.50.10:158][682]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2019.04.17-14.50.10:158][682]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2019.04.17-14.50.10:259][682]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2019.04.17-14.50.10:360][682]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2019.04.17-14.50.10:360][682]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2019.04.17-14.50.10:360][682]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2019.04.17-14.50.10:360][682]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2019.04.17-14.50.10:360][682]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2019.04.17-14.50.10:360][682]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2019.04.17-14.50.10:363][682]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2019.04.17-14.50.10:363][682]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2019.04.17-14.50.10:363][682]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2019.04.17-14.50.10:364][682]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2019.04.17-14.50.10:364][682]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2019.04.17-14.50.10:364][682]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2019.04.17-14.50.10:365][682]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2019.04.17-14.50.10:365][682]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.04.17-14.50.10:365][682]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2019.04.17-14.50.10:365][682]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2019.04.17-14.50.10:365][682]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2019.04.17-14.50.10:365][682]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
-[2019.04.17-14.50.10:365][682]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
-[2019.04.17-14.50.10:377][682]LogModuleManager: Shutting down and abandoning module Media (241)
-[2019.04.17-14.50.10:385][682]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
-[2019.04.17-14.50.10:385][682]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
-[2019.04.17-14.50.10:385][682]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
-[2019.04.17-14.50.10:396][682]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
-[2019.04.17-14.50.10:397][682]LogModuleManager: Shutting down and abandoning module Overlay (230)
-[2019.04.17-14.50.10:397][682]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
-[2019.04.17-14.50.10:397][682]LogModuleManager: Shutting down and abandoning module VREditor (226)
-[2019.04.17-14.50.10:397][682]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
-[2019.04.17-14.50.10:409][682]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
-[2019.04.17-14.50.10:409][682]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
-[2019.04.17-14.50.10:418][682]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
-[2019.04.17-14.50.10:418][682]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
-[2019.04.17-14.50.10:419][682]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
-[2019.04.17-14.50.10:419][682]LogModuleManager: Shutting down and abandoning module UMG (212)
-[2019.04.17-14.50.10:419][682]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
-[2019.04.17-14.50.10:419][682]LogModuleManager: Shutting down and abandoning module Sequencer (210)
-[2019.04.17-14.50.10:432][682]LogModuleManager: Shutting down and abandoning module MessageLog (207)
-[2019.04.17-14.50.10:432][682]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
-[2019.04.17-14.50.10:446][682]LogModuleManager: Shutting down and abandoning module Slate (200)
-[2019.04.17-14.50.10:446][682]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
-[2019.04.17-14.50.10:449][682]LogModuleManager: Shutting down and abandoning module MRMesh (196)
-[2019.04.17-14.50.10:449][682]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
-[2019.04.17-14.50.10:450][682]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
-[2019.04.17-14.50.10:450][682]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
-[2019.04.17-14.50.10:450][682]LogModuleManager: Shutting down and abandoning module Networking (188)
-[2019.04.17-14.50.10:450][682]LogModuleManager: Shutting down and abandoning module Core (186)
-[2019.04.17-14.50.10:450][682]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
-[2019.04.17-14.50.10:450][682]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
-[2019.04.17-14.50.10:450][682]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
-[2019.04.17-14.50.10:450][682]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
-[2019.04.17-14.50.10:450][682]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
-[2019.04.17-14.50.10:450][682]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
-[2019.04.17-14.50.10:457][682]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
-[2019.04.17-14.50.10:463][682]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
-[2019.04.17-14.50.10:463][682]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
-[2019.04.17-14.50.10:463][682]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
-[2019.04.17-14.50.10:464][682]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
-[2019.04.17-14.50.10:464][682]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
-[2019.04.17-14.50.10:467][682]LogDerivedDataCache: Shutdown
-[2019.04.17-14.50.10:467][682]LogModuleManager: Shutting down and abandoning module XGEController (158)
-[2019.04.17-14.50.10:467][682]LogXGEController: Cleaning working directory: C:/Users/Austin Weiler/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.04.17-14.50.10:467][682]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
-[2019.04.17-14.50.10:468][682]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
-[2019.04.17-14.50.10:468][682]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
-[2019.04.17-14.50.10:468][682]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
-[2019.04.17-14.50.10:474][682]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
-[2019.04.17-14.50.10:474][682]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
-[2019.04.17-14.50.10:497][682]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
-[2019.04.17-14.50.10:497][682]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
-[2019.04.17-14.50.10:497][682]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
-[2019.04.17-14.50.10:497][682]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
-[2019.04.17-14.50.10:497][682]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
-[2019.04.17-14.50.10:498][682]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
-[2019.04.17-14.50.10:498][682]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
-[2019.04.17-14.50.10:498][682]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
-[2019.04.17-14.50.10:498][682]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
-[2019.04.17-14.50.10:498][682]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
-[2019.04.17-14.50.10:498][682]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
-[2019.04.17-14.50.10:499][682]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
-[2019.04.17-14.50.10:499][682]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
-[2019.04.17-14.50.10:499][682]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
-[2019.04.17-14.50.10:499][682]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
-[2019.04.17-14.50.10:499][682]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
-[2019.04.17-14.50.10:501][682]LogModuleManager: Shutting down and abandoning module Messaging (113)
-[2019.04.17-14.50.10:501][682]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
-[2019.04.17-14.50.10:502][682]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
-[2019.04.17-14.50.10:502][682]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
-[2019.04.17-14.50.10:513][682]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
-[2019.04.17-14.50.10:513][682]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
-[2019.04.17-14.50.10:513][682]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
-[2019.04.17-14.50.10:513][682]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
-[2019.04.17-14.50.10:513][682]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
-[2019.04.17-14.50.10:513][682]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
-[2019.04.17-14.50.10:513][682]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
-[2019.04.17-14.50.10:513][682]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
-[2019.04.17-14.50.10:513][682]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
-[2019.04.17-14.50.10:513][682]LogModuleManager: Shutting down and abandoning module InputCore (86)
-[2019.04.17-14.50.10:513][682]LogModuleManager: Shutting down and abandoning module Settings (84)
-[2019.04.17-14.50.10:513][682]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
-[2019.04.17-14.50.10:513][682]LogModuleManager: Shutting down and abandoning module SteamVR (80)
-[2019.04.17-14.50.10:513][682]LogHMD: Freeing OpenVRDLLHandle.
-[2019.04.17-14.50.10:513][682]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
-[2019.04.17-14.50.10:513][682]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
-[2019.04.17-14.50.10:513][682]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
-[2019.04.17-14.50.10:514][682]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
-[2019.04.17-14.50.10:514][682]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
-[2019.04.17-14.50.10:525][682]LogModuleManager: Shutting down and abandoning module XMPP (63)
-[2019.04.17-14.50.10:525][682]LogModuleManager: Shutting down and abandoning module WebSockets (62)
-[2019.04.17-14.50.10:546][682]LogModuleManager: Shutting down and abandoning module HTTP (59)
-[2019.04.17-14.50.10:546][682]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.04.17-14.50.10:546][682]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2A8201B3-4C92-95E9-462F-CD9C262D034D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=c2e2089745e720e5c6b1b1a9f1f77ea0%7Ce027c2f0d9794414af3e23ed953e7c77%7C04275c64-0784-4644-bb0b-9d88958f1af0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.04.17-14.50.10:555][682]LogModuleManager: Shutting down and abandoning module SSL (58)
-[2019.04.17-14.50.10:556][682]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
-[2019.04.17-14.50.10:556][682]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
-[2019.04.17-14.50.10:556][682]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
-[2019.04.17-14.50.10:556][682]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
-[2019.04.17-14.50.10:556][682]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
-[2019.04.17-14.50.10:556][682]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
-[2019.04.17-14.50.10:556][682]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
-[2019.04.17-14.50.10:556][682]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.04.17-14.50.10:556][682]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
-[2019.04.17-14.50.10:557][682]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
-[2019.04.17-14.50.10:557][682]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.04.17-14.50.10:572][682]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.04.17-14.50.10:582][682]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.04.17-14.50.10:586][682]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.04.17-14.50.10:586][682]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.04.17-14.50.10:586][682]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.04.17-14.50.10:586][682]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.04.17-14.50.10:586][682]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.04.17-14.50.10:595][682]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.04.17-14.50.10:595][682]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.04.17-14.50.10:595][682]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.04.17-14.50.10:595][682]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.04.17-14.50.10:595][682]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.04.17-14.50.10:596][682]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.04.17-14.50.10:596][682]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.04.17-14.50.10:596][682]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.04.17-14.50.10:596][682]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.04.17-14.50.10:596][682]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.04.17-14.50.10:631][682]LogExit: Exiting.
-[2019.04.17-14.50.10:665][682]Log file closed, 04/17/19 10:50:10
+[2019.04.17-14.59.44:192][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Engine.ini]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Engine.ini]
+[2019.04.17-14.59.44:193][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Engine.ini]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Engine.ini]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.17-14.59.44:193][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.17-14.59.44:194][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.04.17-14.59.44:194][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.17-14.59.44:194][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.17-14.59.44:194][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.04.17-14.59.44:194][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.17-14.59.44:194][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.17-14.59.44:194][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.17-14.59.44:194][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.17-14.59.44:194][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Engine.ini]
+[2019.04.17-14.59.44:194][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Engine.ini]
+[2019.04.17-14.59.44:198][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
+[2019.04.17-14.59.44:198][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.17-14.59.44:198][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.17-14.59.44:198][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.17-14.59.44:199][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.17-14.59.44:200][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.17-14.59.44:201][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.17-14.59.44:201][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.17-14.59.44:201][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.17-14.59.44:229][  0]LogHAL: Display: Platform has ~ 16 GB [17127874560 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.17-14.59.44:229][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.04.17-14.59.44:229][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.17-14.59.44:229][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
+[2019.04.17-14.59.44:229][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.17-14.59.44:230][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.17-14.59.44:231][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Scalability.ini]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.17-14.59.44:232][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.17-14.59.44:233][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.17-14.59.44:233][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Config/Windows/Engine.ini]
+[2019.04.17-14.59.44:233][  0]LogInit: Computer: DESKTOP-EF7ETIK
+[2019.04.17-14.59.44:233][  0]LogInit: User: AustinWeiler
+[2019.04.17-14.59.44:233][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.04.17-14.59.44:233][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.17-14.59.44:234][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.04.17-14.59.44:234][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.17-14.59.44:234][  0]LogMemory: Process Physical Memory: 104.19 MB used, 104.20 MB peak
+[2019.04.17-14.59.44:234][  0]LogMemory: Process Virtual Memory: 91.85 MB used, 91.85 MB peak
+[2019.04.17-14.59.44:234][  0]LogMemory: Physical Memory: 5554.20 MB used,  10780.22 MB free, 16334.41 MB total
+[2019.04.17-14.59.44:234][  0]LogMemory: Virtual Memory: 4683.14 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2019.04.17-14.59.44:264][  0]LogInit: Using OS detected language (en-US).
+[2019.04.17-14.59.44:264][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.17-14.59.44:265][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.17-14.59.44:702][  0]LogStreaming: Display: Took  0.438s to InitEngineTextLocalization.
+[2019.04.17-14.59.44:702][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.17-14.59.44:733][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.17-14.59.44:733][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.17-14.59.45:068][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.17-14.59.45:068][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.17-14.59.45:143][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.04.17-14.59.45:144][  0]LogD3D11RHI:       8079/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.17-14.59.45:146][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.17-14.59.45:146][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.17-14.59.45:146][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.17-14.59.45:153][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.17-14.59.45:154][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.17-14.59.45:154][  0]LogWindows: EnumDisplayDevices:
+[2019.04.17-14.59.45:154][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.04.17-14.59.45:154][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.04.17-14.59.45:154][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.04.17-14.59.45:154][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.04.17-14.59.45:155][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.17-14.59.45:155][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.04.17-14.59.45:155][  0]LogD3D11RHI:   Driver Version: 425.31 (internal:25.21.14.2531, unified:425.31)
+[2019.04.17-14.59.45:155][  0]LogD3D11RHI:      Driver Date: 4-9-2019
+[2019.04.17-14.59.45:155][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.04.17-14.59.45:209][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.17-14.59.45:224][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.17-14.59.45:708][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.17-14.59.45:723][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.17-14.59.45:739][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.17-14.59.45:754][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.17-14.59.45:770][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.17-14.59.45:786][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.17-14.59.45:802][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.17-14.59.45:836][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.17-14.59.45:851][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.17-14.59.45:960][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.17-14.59.45:962][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.17-14.59.46:047][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.17-14.59.46:047][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.17-14.59.46:114][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.17-14.59.46:114][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.17-14.59.46:141][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.17-14.59.46:156][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.17-14.59.46:172][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.17-14.59.46:188][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.17-14.59.46:247][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.17-14.59.46:247][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.17-14.59.46:247][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.17-14.59.46:317][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Intermediate/Shaders/WorkingDirectory/2232/).
+[2019.04.17-14.59.46:318][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Austin Weiler/AppData/Local/Temp/UnrealShaderWorkingDir/1FD830514498A0719F7620BA92D1166D/'.
+[2019.04.17-14.59.46:319][  0]LogXGEController: Cleaning working directory: C:/Users/Austin Weiler/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.17-14.59.46:319][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.17-14.59.46:319][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.17-14.59.46:319][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.17-14.59.46:962][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.17-14.59.47:007][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Austin Weiler/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.17-14.59.47:007][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Austin Weiler/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.04.17-14.59.47:007][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.17-14.59.47:007][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.17-14.59.47:007][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.17-14.59.47:007][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.17-14.59.47:028][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.17-14.59.47:033][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.04.17-14.59.47:045][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Austin Weiler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.17-14.59.47:045][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.17-14.59.47:045][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.17-14.59.47:086][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.17-14.59.47:088][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.17-14.59.47:089][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.17-14.59.47:214][  0]LogAssetRegistry: FAssetRegistry took 0.0521 seconds to start up
+[2019.04.17-14.59.47:667][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.17-14.59.47:847][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.17-14.59.47:850][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.17-14.59.47:850][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.17-14.59.47:850][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.17-14.59.47:850][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.17-14.59.47:870][  0]LogNetVersion: SeaMadness 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1136724634)
+[2019.04.17-14.59.48:602][  0]LogPackageLocalizationCache: Processed 14 localized package path(s) for 2 prioritized culture(s) in 0.177492 seconds
+[2019.04.17-14.59.48:612][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.04.17-14.59.48:612][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.04.17-14.59.48:612][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.17-14.59.49:864][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.17-14.59.49:877][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.17-14.59.50:766][  0]SourceControl: Source control is disabled
+[2019.04.17-14.59.50:766][  0]SourceControl: Source control is disabled
+[2019.04.17-14.59.50:776][  0]SourceControl: Source control is disabled
+[2019.04.17-14.59.50:777][  0]SourceControl: Source control is disabled
+[2019.04.17-14.59.50:969][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.17-14.59.51:126][  0]LogOcInput: OculusInput pre-init called
+[2019.04.17-14.59.53:072][  0]LogEngine: Initializing Engine...
+[2019.04.17-14.59.53:073][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.17-14.59.53:074][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.17-14.59.53:074][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.17-14.59.53:074][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.17-14.59.53:074][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.17-14.59.53:357][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.17-14.59.53:368][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.17-14.59.53:389][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.17-14.59.53:414][  0]LogInit: FAudioDevice initialized.
+[2019.04.17-14.59.53:414][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.17-14.59.53:468][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/Austin Weiler/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.17-14.59.53:485][  0]LogInit: Texture streaming: Enabled
+[2019.04.17-14.59.53:512][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.17-14.59.53:525][  0]LogInit: Transaction tracking system initialized
+[2019.04.17-14.59.53:543][  0]BlueprintLog: New page: Editor Load
+[2019.04.17-14.59.53:647][  0]LocalizationService: Localization service is disabled
+[2019.04.17-14.59.54:312][  0]LogFileCache: Scanning file cache for directory 'D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/' took 0.01s
+[2019.04.17-14.59.54:313][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.17-14.59.54:313][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.17-14.59.54:313][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.17-14.59.54:313][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.17-14.59.54:313][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.17-14.59.54:313][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.17-14.59.54:313][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.17-14.59.56:054][  0]SourceControl: Source control is disabled
+[2019.04.17-14.59.56:054][  0]Cmd: MAP LOAD FILE="../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.17-14.59.56:054][  0]LogEditorServer: Warning: Can't find file '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.04.17-14.59.56:054][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.17-14.59.56:054][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.113ms to complete.
+[2019.04.17-14.59.56:054][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.000
+[2019.04.17-14.59.56:172][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.17-14.59.56:180][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.17-14.59.56:189][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.17-14.59.56:197][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.17-14.59.56:202][  0]LogCollectionManager: Loaded 0 collections in 0.001004 seconds
+[2019.04.17-14.59.56:246][  0]LogFileCache: Scanning file cache for directory 'D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/Collections/' took 0.01s
+[2019.04.17-14.59.56:246][  0]LogFileCache: Scanning file cache for directory 'D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/Developers/AustinWeiler/Collections/' took 0.01s
+[2019.04.17-14.59.56:246][  0]LogFileCache: Scanning file cache for directory 'D:/Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/Collections/' took 0.01s
+[2019.04.17-14.59.56:246][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.17-14.59.56:271][  0]LogContentBrowser: Native class hierarchy populated in 0.0239 seconds. Added 2710 classes and 655 folders.
+[2019.04.17-14.59.56:280][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.17-14.59.56:282][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:283][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:283][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:284][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:285][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:285][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:286][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:287][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:287][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:288][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:289][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:289][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:290][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:291][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:292][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:292][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:293][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:294][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:294][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:295][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:296][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:296][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:297][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:298][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:299][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:300][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:300][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:301][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.17-14.59.56:355][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.17-14.59.56:370][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.17-14.59.56:372][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.17-14.59.56:378][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.17-14.59.56:461][  0]LogRenderer: Reallocating scene render targets to support 1164x664 Format 10 NumSamples 1 (Frame:1).
+[2019.04.17-14.59.56:551][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.17-14.59.56:551][  0]LogLoad: (Engine Initialization) Total time: 15.02 seconds
+[2019.04.17-14.59.56:551][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.17-14.59.56:592][  0]LogAssetRegistry: Asset discovery search completed in 9.4011 seconds
+[2019.04.17-14.59.56:594][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.17-14.59.56:594][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
+[2019.04.17-14.59.56:597][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.17-14.59.56:632][  0]LogSlate: Took 0.000414 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.17-15.00.02:547][514]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.17-15.00.03:947][680]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.17-15.00.09:671][362]LogSlate: Window 'Open Level' being destroyed
+[2019.04.17-15.00.10:347][440]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.17-15.00.20:070][560]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.17-15.00.21:666][751]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.17-15.00.24:824][751]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.04.17-15.00.24:916][752]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SeaMadness
+[2019.04.17-15.00.24:916][752]LogTemp: CWD: D:\UE4\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.04.17-15.00.24:916][752]LogTemp: Initial Dir: D:\UE4\UE_4.21
+[2019.04.17-15.00.24:916][752]LogTemp: Env CWD: D:\UE4\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.04.17-15.00.24:916][752]LogTemp: BranchPath = DESKTOP-EF7ETIK/D/UE4/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-EF7ETIK/D/UE4/UE_4.21/Engine/Binaries
+[2019.04.17-15.00.24:916][752]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Austin Weiler\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.04.17-15.00.32:633][566]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2019.04.17-15.00.32:633][566]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2019.04.17-15.00.32:633][566]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C'
+[2019.04.17-15.00.33:924][704]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.17-15.00.33:972][704]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.17-15.00.37:227][ 54]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.17-15.00.38:466][176]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.17-15.00.52:758][743]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.17-15.00.52:761][743]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.17-15.00.54:079][895]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.17-15.00.55:369][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.17-15.01.03:115][891]Cmd: MAP LOAD FILE="../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.17-15.01.03:127][891]LightingResults: New page: Lighting Build
+[2019.04.17-15.01.03:130][891]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2019.04.17-15.01.03:131][891]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2019.04.17-15.01.03:131][891]MapCheck: New page: Map Check
+[2019.04.17-15.01.03:131][891]LightingResults: New page: Lighting Build
+[2019.04.17-15.01.03:280][891]LogLinker: Warning: Can't find file '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2019.04.17-15.01.03:280][891]LogLinker: Warning: Can't find file for asset '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2019.04.17-15.01.03:280][891]LoadErrors: Error: /Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData
+[2019.04.17-15.01.03:286][891]LogLinker: Warning: Can't find file '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2019.04.17-15.01.03:286][891]LogLinker: Warning: Can't find file for asset '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.umap.
+[2019.04.17-15.01.03:292][891]LogLinker: Warning: Can't find file '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2019.04.17-15.01.03:292][891]LogLinker: Warning: Can't find file for asset '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2019.04.17-15.01.03:292][891]LogLinker: Warning: Can't find file '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2019.04.17-15.01.03:292][891]LogLinker: Warning: Can't find file for asset '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2019.04.17-15.01.03:300][891]LogLinker: Warning: Can't find file '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData'
+[2019.04.17-15.01.03:300][891]LoadErrors: Failed to load /Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2019.04.17-15.01.03:300][891]LogLinker: Warning: Can't find file for asset '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2019.04.17-15.01.03:444][891]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.04.17-15.01.03:461][891]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.17-15.01.03:570][891]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.17-15.01.03:571][891]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.112ms to complete.
+[2019.04.17-15.01.03:571][891]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.455
+[2019.04.17-15.01.03:573][891]LogSlate: Window 'Open Level' being destroyed
+[2019.04.17-15.01.04:801][ 30]LogSlate: Window 'Message Log' being destroyed
+[2019.04.17-15.01.04:804][ 30]LogSlate: Window 'Message Log' being destroyed
+[2019.04.17-15.01.16:712][857]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.17-15.01.17:006][891]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.17-15.01.18:004][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.17-15.01.19:577][ 10]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.04.17-15.01.19:670][ 12]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SeaMadness
+[2019.04.17-15.01.19:670][ 12]LogTemp: CWD: D:\UE4\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.04.17-15.01.19:670][ 12]LogTemp: Initial Dir: D:\UE4\UE_4.21
+[2019.04.17-15.01.19:670][ 12]LogTemp: Env CWD: D:\UE4\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.04.17-15.01.19:679][ 13]LogTemp: BranchPath = DESKTOP-EF7ETIK/D/UE4/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-EF7ETIK/D/UE4/UE_4.21/Engine/Binaries
+[2019.04.17-15.01.19:689][ 14]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Austin Weiler\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.04.17-15.01.33:882][534]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.17-15.01.33:886][534]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.17-15.01.34:342][586]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.17-15.01.34:424][596]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.17-15.01.34:444][596]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.17-15.01.34:445][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.17-15.01.34:445][596]PIE: New page: PIE session: FirstPersonExampleMap (Apr 17, 2019, 7:01:34 AM)
+[2019.04.17-15.01.34:458][596]LogPlayLevel: Creating play world package: /Game/TemplateStuff/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.04.17-15.01.34:473][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015329s)
+[2019.04.17-15.01.34:474][596]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.04.17-15.01.34:474][596]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2019.04.17-15.01.34:474][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/TemplateStuff/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016308s)
+[2019.04.17-15.01.34:537][596]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.17-15.01.34:548][596]LogInit: FAudioDevice initialized.
+[2019.04.17-15.01.34:596][596]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.04.17-15.01.34:600][596]LogWorld: Bringing World /Game/TemplateStuff/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.04.17-11.01.34
+[2019.04.17-15.01.34:601][596]LogWorld: Bringing up level for play took: 0.002266
+[2019.04.17-15.01.34:617][596]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.04.17-15.01.34:624][596]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2019.04.17-15.01.34:625][596]PIE: Play in editor start time for /Game/TemplateStuff/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.168
+[2019.04.17-15.01.34:626][596]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.17-15.01.36:598][826]LogBlueprintUserMessages: [Wrench_Pickup_2] Acquired Wrench
+[2019.04.17-15.01.37:241][903]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.17-15.01.37:241][903]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.17-15.01.37:276][903]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.17-15.01.37:276][903]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.17-15.01.37:334][903]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.17-15.01.37:350][904]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.04.17-15.01.39:134][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.17-15.01.39:519][105]LogSavePackage: Moving '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Saved/FirstPersonExampleMap0D3B820D4A64BC96D2531E9EF137FE3F.tmp' to '../../../../../Program Files (x86)/Github Repos/SeaMadness/SeaMadness/Content/TemplateStuff/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
